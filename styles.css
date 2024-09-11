@@ -11,6 +11,10 @@
     --corDefundo:#000;
     --corParagrafo:#bdc3c7;
 }
+h1{
+    color: var(--corDetexto);
+    font-size: 25px;
+}
 
 body {
     background-color: var(--corDefundo);
@@ -317,6 +321,7 @@ footer{
     }
 
     #sobre img{
-        width: 300px;;
+        width: 300px;
+        margin-bottom: 10px;
     }
 }
