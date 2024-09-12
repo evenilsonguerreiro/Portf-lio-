@@ -235,7 +235,7 @@ footer{
     text-align: center;
     
 }
-p{
+.p{
     width: 380px;
     height: 190px;
 }
@@ -291,6 +291,7 @@ p{
     }
     .paragrafo{
         font-size: 12px;
+        
     }
     .content-card {
         max-width: 300px;
@@ -331,5 +332,6 @@ p{
     p{
         width: 270px;
         height: 190px;
+        
     }
 }
