@@ -336,7 +336,7 @@ footer{
     }
     h1 {
         font-size: 14px;
-        color: var(--corPrincipal);
+        color: var(--corDetexto);
         
     }
 }
