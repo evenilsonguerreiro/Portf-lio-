@@ -225,6 +225,22 @@ h2.titulo span{
 .content2 span{
     color: var(--corPrincipal);
 }
+#habilidades {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#habilidades img {
+    width: 350px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.skills  {
+    background-image: url('./image/sorft-skills.png');
+    height: 460px;
+    background-size: cover;
+    margin-top: 100px;
+}
 
 footer{
     width: 100%;
@@ -341,5 +357,11 @@ footer{
         font-size: 14px;
         color: var(--corDetexto);
         
+    }
+    .skills  {
+        background-image: url('./image/bg-mobile.png');
+        height: 460px;
+        background-size: cover;
+        margin-top: 100px;
     }
 }
