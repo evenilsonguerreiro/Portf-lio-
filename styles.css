@@ -9,7 +9,7 @@
     --corPrincipal:#d35400;
     --corDetexto:#ecf0f1;
     --corDefundo:#000;
-    --corParagrafo:#bdc3c7;
+    --corParagrafo:#d1ccc0;
 }
 h1{
     color: var(--corDetexto);
