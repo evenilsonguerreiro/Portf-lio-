@@ -129,7 +129,7 @@ h2.titulo span{
     
 }
 .title{
-    font-size:30px;
+    font-size:48px;
     font-weight: bold;
     color: var(--corDetexto);
 }
@@ -350,9 +350,8 @@ footer{
         margin-bottom: 35px;
         
     }
-    h1 {
-        font-size: 14px;
-        color: var(--corDetexto); 
+    .title {
+        font-size:30px;
     }
 
     .skills img  {
