@@ -122,12 +122,7 @@ h2.titulo span{
     margin-bottom: 80px;
    
 }
-.content-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+
 .title{
     font-size:48px;
     font-weight: bold;
@@ -160,13 +155,9 @@ h2.titulo span{
     margin-bottom: 80px;
     
 }
-.content-flex2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-}
+
+
 .content-card {
-    max-width: 410px;
     margin-top: 30px;
     color: var(--corDetexto);
     border: 1px solid var(--corDetexto);
