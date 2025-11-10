@@ -311,15 +311,7 @@ footer{
         font-size: 12px;
         
     }
-    .content-card {
-        max-width: 300px;
-        margin-top: 30px;
-        color: var(--corDetexto);
-        border: 1px solid var(--corDetexto);
-        padding: 25px;
-        border-radius: 20px;
-        transition: .2s;
-    }
+    
     .btn-contact {
         width: 100%;
     }
