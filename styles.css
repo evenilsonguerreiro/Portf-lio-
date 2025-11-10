@@ -10,6 +10,7 @@
     --corDetexto:#ecf0f1;
     --corDefundo:#000;
     --corParagrafo:#d1ccc0;
+    --corEnviar:#0be881;
 }
 h1{
     color: var(--corDetexto);
@@ -21,12 +22,10 @@ body {
     background-color: var(--corDefundo);
 
 }
-span{
+span , .span-title  {
     color: var(--corPrincipal);
 }
- span ,.footer-span {
-  color: var(--corDetexto);  
-}
+
 
 .header {
     max-width: 1309px; 
@@ -55,8 +54,9 @@ h2.titulo span{
 .header .links:hover{
     letter-spacing: 2px;
 }
-
-
+.btn-enviar {
+    background-color: var(--corEnviar);
+}
 
 .btn-contact a{
     color: var(--corDetexto);
@@ -236,6 +236,12 @@ h2.titulo span{
     margin: 0 auto;
     margin-top: 100px;
 }
+.input {
+    background-color: transparent;
+}
+.text-input {
+    color: var(--corDetexto);
+}
 
 footer{
     width: 100%;
@@ -244,6 +250,10 @@ footer{
     background-color: var(--corPrincipal);
     color: var(--corParagrafo);
     text-align: center;
+
+    span {
+        color: var(--corDetexto);
+    }
     
 }
 .p{

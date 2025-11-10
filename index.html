@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link  links" aria-current="page" href="">Home</a>
+              <a class="nav-link  links" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link links" href="#projetos">Projetos</a>
@@ -42,7 +42,7 @@
               <a class="nav-link links" href="#habilidades">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link links" href="#softskills">Soft Skills</a>
+              <a class="nav-link links" href="#form">Formulário</a>
             </li>
           </ul>
         </div>
@@ -51,11 +51,11 @@
   </div>
 
   <section id="home">
-    <div class="container mt-5">
+    <div class="container  mt-5">
       <div class="row align-items-center content  ">
         <!-- Primeira Coluna -->
         <div class="col-md-6">
-          <h1 class="title"><span>
+          <h1 class="title"><span span-title>
               Dando vida ao digital
             </span> com criatividade e inovação</h1>
           <p class="paragrafo">Hoje, como desenvolvedor front-end, continuo a aprender e crescer todos os dias. Para
@@ -328,20 +328,39 @@
     </div>
   </section>
 
-  <section id="softskills">
-    <div class="container">
-      <h2 class="titulo">Soft <span>Skills</span></h2>
-      <div class="skills skils-bg">
-        <img src="IMAGENS/soft-skills-para-portifolio.png" alt="">
+  
+
+  <section id="form">
+      <!-- Bootstrap CSS -->
+      <div class="container mt-4">
+        <h2 class="mb-3 titulo">Entre em</span><span> Contato</span></h2>
+
+        <form id="formWhatsApp">
+          <!-- Nome -->
+          <div class="mb-3">
+            <label for="nome" class="form-label text-input">Nome</label>
+            <input type="text" class="form-control input" id="nome" placeholder="Digite seu nome" required />
+          </div>
+
+          <!-- Mensagem -->
+          <div class="mb-3">
+            <label for="mensagem" class="form-label text-input">Mensagem</label>
+            <textarea class="form-control input" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+          </div>
+
+          <!-- Botão -->
+          <button type="submit" class="btn btn-enviar">
+            Enviar
+          </button>
+        </form>
       </div>
-    </div>
   </section>
 
   <footer>
     <div class="container">
       Todos os direitos resevados ao senhor Jesus<br>
       Dev - Evenilson Almeida <br>
-      &copy; <span footer-span id="year"></span> 
+      &copy; <span footer-span id="year"></span>
     </div>
   </footer>
 
@@ -351,6 +370,22 @@
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
+
+   document.getElementById("formWhatsApp").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const nome = document.getElementById("nome").value;
+    const mensagem = document.getElementById("mensagem").value;
+
+    const numero = "5585988540568"; // 55 + DDD + número → EX: 5599999999999
+
+    const texto = `Olá, meu nome é ${nome}.%0A${mensagem}`;
+
+    const url = `https://wa.me/${numero}?text=${texto}`;
+
+    window.open(url, "_blank");
+
+  });
 </script>
 
 
