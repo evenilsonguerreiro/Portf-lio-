@@ -14,8 +14,7 @@
 }
 h1{
     color: var(--corDetexto);
-    font-size: 25px;
-    
+    font-size: 25px;   
 }
 
 body {
@@ -135,15 +134,12 @@ h2.titulo span{
     color: var(--corParagrafo);
 }
 .content-avatar img{
-    width: 260px;
-    height: 260px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
-    float: right;
+    margin-left: 380px;  
 }
-.content-avatar img {
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
-}
+
 
 @keyframes flutuar {
     0%{
@@ -153,11 +149,7 @@ h2.titulo span{
         left: 30px;
     }
 }
-.content{
-    margin-top: 200px;
-    margin-bottom: 80px;
-    
-}
+
 
 
 .content-card {
@@ -267,6 +259,11 @@ footer{
 
 
 @media(max-width:769px) {
+
+    h1{
+    color: var(--corDetexto);
+    font-size: 10px;   
+}
     .container{
         max-width: 90%;
     }
@@ -284,28 +281,22 @@ footer{
     .header .links:hover{
         letter-spacing: 2px;
     }
+
     .content-avatar img{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        margin-top: 20px;
-        float: none;
-        margin-left: 10%;
-    }
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin-left: 0;  
+}
+    .content{
+    margin-top: 400px;
+    margin-bottom: 80px; 
+    margin-left: 0px; 
     
     .content-avatar img {
-        position: relative;
-        animation: flutuar 2s ease-in-out infinite alternate;
+        margin-top: 30px;
     }
-    
-    @keyframes flutuar {
-        0%{
-            left: 0;
-        }
-        100%{
-            left: 10px;
-        }
-    }
+}
     
     .paragrafo{
         font-size: 12px;
@@ -316,13 +307,7 @@ footer{
         width: 100%;
     }
     
-    
-    .content-card img{
-        width: 250px;
-        margin-top: 25px;
-        border-radius: 20px;
-        margin-bottom: 5px;
-    }
+   
     .content-flex2 {
         display: grid;
         grid-template-columns: 1fr ;
@@ -337,7 +322,7 @@ footer{
     }
 
     #sobre img{
-        width: 300px;
+        width: 100%;
         margin-bottom: 10px;
     }
     .p{
