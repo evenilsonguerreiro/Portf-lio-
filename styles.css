@@ -132,7 +132,9 @@ h2.titulo span{
 }
 .paragrafo{
     color: var(--corParagrafo);
+    line-height: 25px;
 }
+
 .content-avatar img{
     width: 240px;
     height: 240px;
@@ -148,6 +150,9 @@ h2.titulo span{
     100%{
         left: 30px;
     }
+}
+.bg-card {
+    background-color: var(--corDefundo);
 }
 
 
@@ -253,8 +258,6 @@ footer{
     height: 190px;
     margin-bottom: 10px;
 }
-
-
 
 
 
