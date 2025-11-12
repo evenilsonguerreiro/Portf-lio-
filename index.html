@@ -13,6 +13,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Portifólio</title>
 </head>
 
@@ -21,7 +22,7 @@
     <nav class="navbar navbar-expand-lg header fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand links" href="#">
-          <h1>Dev-Evenilson</h1>
+          <h1 >Dev-Evenilson</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,19 +31,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link  links" aria-current="page" href="#home">Home</a>
+              <a data-aos="fade-down" data-aos-duration="1500" class="nav-link  links" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link links" href="#projetos">Projetos</a>
+              <a data-aos="fade-down" data-aos-duration="2000" class="nav-link links" href="#projetos">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link links" href="#sobre">Sobre</a>
+              <a data-aos="fade-down" data-aos-duration="2500" class="nav-link links" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link links" href="#habilidades">Habilidades</a>
+              <a data-aos="fade-down" data-aos-duration="3000" class="nav-link links" href="#habilidades">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link links" href="#form">Formulário</a>
+              <a data-aos="fade-down" data-aos-duration="3500" class="nav-link links" href="#form">Formulário</a>
             </li>
           </ul>
         </div>
@@ -55,13 +56,13 @@
       <div class="row  content  ">
         <!-- Primeira Coluna -->
         <div class="col-md-6 ">
-          <h1 class="title"><span span-title>
+          <h1  data-aos="fade-right" data-aos-duration="1500" class="title"><span span-title>
               Dando vida ao digital
             </span> com criatividade e inovação</h1>
           <p class="paragrafo">Hoje, como desenvolvedor front-end, continuo a aprender e crescer todos os dias. Para
             mim, cada projeto é um novo desafio e uma oportunidade de superar medos. Em todos os projetos que eu vier a
             desenvolver, vou procuro impactar positivamente as pessoas, simplesmente porque amo programar.</p>
-          <div class="btns">
+          <div data-aos="zoom-out-down" data-aos-duration="2000" class="btns">
             <a href="https://github.com/evenilsonguerreiro" target="_blank" class="btn btn-contact">Meu Github</a>
             <a href="https://www.linkedin.com/in/evenilson-da-silva-almeida/" target="_blank"
               class="btn btn-contact">Meu Linkedin</a>
@@ -69,15 +70,15 @@
         </div>
         <!-- Segunda Coluna -->
         <div class="col-md-6 content-avatar">
-          <img src="IMAGENS/imagem-2.png" alt="Descrição da Imagem">
+          <img  data-aos="flip-right" data-aos-duration="1700" src="IMAGENS/imagem-2.png" alt="Descrição da Imagem">
         </div>
       </div>
     </div>
   </section>
 
   <section id="projetos">
-  <hr>
-    <h2 class="titulo text-center mb-4">
+    <hr>
+    <h2  data-aos="fade-right" data-aos-duration="1500" class="titulo text-center mb-4">
       Meus <span>projetos</span>
     </h2>
     <div class="container">
@@ -245,12 +246,12 @@
       <div class="row align-items-center content2  ">
         <!-- Primeira Coluna -->
         <div class="col-md-6">
-          <img src="IMAGENS/programador.jpeg" alt="">
+          <img data-aos="flip-right" data-aos-duration="1700" src="IMAGENS/programador.jpeg" alt="">
         </div>
         <!-- Segunda Coluna -->
         <div class="col-md-6 content-avatar">
-          <h2 class="titulo">MUITO PRAZER , EU SOU <br> <span>EVENILSON </span></h2>
-          <p class="paragrafo">Meu nome é Evenilson da Silva Almeida, e estou cursando Desenvolvimento Front-end pela
+          <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo">MUITO PRAZER , EU SOU <br> <span>EVENILSON </span></h2>
+          <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo">Meu nome é Evenilson da Silva Almeida, e estou cursando Desenvolvimento Front-end pela
             EBAC. Tenho grande interesse em fazer parte de uma equipe inovadora, onde eu possa aplicar e expandir meus
             conhecimentos em HTML, CSS, JavaScript e frameworks modernos.
             Estou sempre buscando aprimorar minhas habilidades e estou disponível para conversar sobre oportunidades e
@@ -264,11 +265,11 @@
       </div>
     </div>
   </section>
-<hr>
+  <hr>
   <section id="habilidades">
     <div class="container">
-      <h2 class="titulo"><span>Habili</span>dades</h2>
-      <p class="paragrafo">
+      <h2 data-aos="fade-right" data-aos-duration="1500" class="titulo"><span>Habili</span>dades</h2>
+      <p data-aos="zoom-in-down" data-aos-duration="1500" class="paragrafo">
 
         Sou desenvolvedor front-end com experiência em uma gama de tecnologias modernas que permitem criar interfaces
         dinâmicas e responsivas. Minhas principais habilidades incluem:
@@ -324,31 +325,32 @@
       </div>
     </div>
   </section>
-<hr>
+  <hr>
   <section id="form">
-      <!-- Bootstrap CSS -->
-      <div class="container mt-4">
-        <h2 class="mb-3 titulo">Entre em</span><span> Contato</span></h2>
+    <!-- Bootstrap CSS -->
+    <div class="container mt-4">
+      <h2 data-aos="fade-right" data-aos-duration="1500" class="mb-3 titulo">Entre em</span><span> Contato</span></h2>
 
-        <form id="formWhatsApp">
-          <!-- Nome -->
-          <div class="mb-3">
-            <label for="nome" class="form-label text-input">Nome</label>
-            <input type="text" class="form-control input" id="nome" placeholder="Digite seu nome" required />
-          </div>
+      <form id="formWhatsApp">
+        <!-- Nome -->
+        <div class="mb-3">
+          <label for="nome" class="form-label text-input">Nome</label>
+          <input type="text" class="form-control input" id="nome" placeholder="Digite seu nome" required />
+        </div>
 
-          <!-- Mensagem -->
-          <div class="mb-3">
-            <label for="mensagem" class="form-label text-input">Mensagem</label>
-            <textarea class="form-control input" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
-          </div>
+        <!-- Mensagem -->
+        <div class="mb-3">
+          <label for="mensagem" class="form-label text-input">Mensagem</label>
+          <textarea class="form-control input" id="mensagem" rows="4" placeholder="Digite sua mensagem"
+            required></textarea>
+        </div>
 
-          <!-- Botão -->
-          <button type="submit" class="btn btn-enviar">
-            Enviar
-          </button>
-        </form>
-      </div>
+        <!-- Botão -->
+        <button type="submit" class="btn btn-enviar">
+          Enviar
+        </button>
+      </form>
+    </div>
   </section>
 
   <footer>
@@ -362,11 +364,15 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
 
-   document.getElementById("formWhatsApp").addEventListener("submit", function (e) {
+  document.getElementById("formWhatsApp").addEventListener("submit", function (e) {
     e.preventDefault();
 
     const nome = document.getElementById("nome").value;
