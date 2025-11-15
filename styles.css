@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 :root {
-    --corPrincipal:#d35400;
+    --corPrincipal:#25CCF7;
     --corDetexto:#ecf0f1;
     --corDefundo:#000;
     --corParagrafo:#d1ccc0;
@@ -25,6 +25,12 @@ span , .span-title  {
     color: var(--corPrincipal);
 }
 
+.frase-impacto {
+  font-size: 1.1rem;
+  color: #6c757d; /* Cinza suave */
+  margin-bottom: 10px;
+  font-weight: 500;
+}
 
 .header {
     max-width: 1309px; 
@@ -54,7 +60,7 @@ h2.titulo span{
     letter-spacing: 2px;
 }
 .btn-enviar {
-    background-color: var(--corEnviar);
+    background-color: var(--corPrincipal);
 }
 
 .btn-contact a{
@@ -80,7 +86,7 @@ h2.titulo span{
   
   .btn-contact:before {
     content: '';
-    background: linear-gradient(45deg, #e76b05, #ff7300, #fffb00, #8d6611, #fbff00, #ff5100, #9dff00, #ff5e00, #ff0000);
+    background: linear-gradient(45deg, #25CCF7, #0077ff, #1900ff, #8d6611, #5900ff, #25CCF7, #25CCF7, #25CCF7, #25CCF7);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -156,7 +162,6 @@ h2.titulo span{
 }
 
 
-
 .content-card {
     margin-top: 30px;
     color: var(--corDetexto);
@@ -187,15 +192,16 @@ h2.titulo span{
     text-align: center; 
     
 }
+
+.btn-link{
+    border: solid 2px var(--corPrincipal);
+    color: var(--corDefundo);
+}
 .content-card a {
     color: var(--corPrincipal);
     text-decoration: none;  
 }
-.content-card img{
-    width: 350px;
-    border-radius: 20px;
-    margin-bottom: 5px;
-}
+
 .content-card-span  {
     text-align: center;
 }
@@ -245,7 +251,7 @@ footer{
      margin-top: 100px;
     padding: 16px;
     background-color: var(--corPrincipal);
-    color: var(--corParagrafo);
+    color: var(--corDetexto);
     text-align: center;
 
     span {
