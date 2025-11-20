@@ -267,7 +267,7 @@ footer{
 
     h1{
     color: var(--corDetexto);
-    font-size: 10px;   
+    font-size: 18px;   
 }
     .container{
         max-width: 90%;
@@ -277,6 +277,10 @@ footer{
         height: 100px;
         margin: auto; 
         background-color: var(--corDefundo);
+
+        .menu{
+            background-color: var(--corDetexto);
+        }
     }
     .header .links {
         color: var(--corPrincipal);
@@ -304,7 +308,7 @@ footer{
 }
     
     .paragrafo{
-        font-size: 12px;
+        font-size: 17px;
         
     }
     
